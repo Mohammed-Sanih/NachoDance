@@ -1,0 +1,21 @@
+doctype html 
+html
+  head
+    title Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar 
+        ul 
+            div#logo
+                img(src="/static/img/logo.png")
+                | Nacho
+            li #[a(href="/") Home]    
+            li #[a(href="/about") About]    
+            li #[a(href="/package") Package]    
+            li #[a(href="/info") Info]    
+            li #[a(href="/contact") Contact us] 
+
+    block content
+    footer#footer 
+        | All rights reserved © | Developed by Sanih 

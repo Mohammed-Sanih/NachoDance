@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style
+    style 
+      include ../static/style.css
+      include ../static/stylePackage.css
+
+block content
+    .container
+      h2 Academy Packages
+      p
+        | Bollywood, Hiphop, Contemporary, Belly, Parkour, Kids Batch, Freestyle
+        br
+        | (In Morning Batch Student Get the Benefit of 1hr + 30 mins Class But In Evening Batch Timing are 1 hr only)
+      table
+        thead
+          tr.bodr
+            th Duration
+            th Days
+            th Packages
+        tbody
+          tr
+            td 8 Classes
+            td 2 days/week
+            td 
+               a(href="/") 2,100/-
+          tr
+            td 12 Classes
+            td 3 days/week
+            td 
+               a(href="/") 3,100/-
+          tr
+            td 20 Classes
+            td 5 days/week
+            td 
+               a(href="/") 5,100/-
+          tr
+            td 24 Classes
+            td 6 days/week
+            td 
+               a(href="/") 6,100/-      

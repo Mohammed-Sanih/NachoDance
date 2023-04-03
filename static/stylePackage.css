@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    min-height: 78vh;
+    margin: 0px;
+   
+}
+.container h2{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    margin: 16px auto;
+    font-size: 40px;
+}
+.container p{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    margin: 16px auto;
+    font-size: 27px;
+}
+table th, td {
+    border: 2px solid black;
+    margin: 12px;
+    padding: 12px;
+    width: 10%;
+    text-align: center;
+    font-size: 24px;
+  }
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;    
+}
+th{
+    font-family: 'Baloo Bhai 2', cursive;
+    height: 90px;
+    /* background-color: yellow; */
+    font-weight: bold;
+}
+td{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: black;
+    /* background-color: rgb(98, 81, 81); */
+}
+td a{
+    text-decoration: none;
+    color: black;
+}
